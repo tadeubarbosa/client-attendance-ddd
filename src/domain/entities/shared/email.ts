@@ -1,4 +1,4 @@
-import InvalidEmailException from "../../exceptions/shared/invalid-email-exception";
+import InvalidEmailException from "../../../exceptions/shared/invalid-email-exception";
 
 export default class Email {
     private readonly emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;

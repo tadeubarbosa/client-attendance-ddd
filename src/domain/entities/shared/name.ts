@@ -1,4 +1,4 @@
-import InvalidNameException from "../../exceptions/contato/invalid-name-exception";
+import InvalidNameException from "../../../exceptions/contato/invalid-name-exception";
 
 export default class Name {
     private name: string;
