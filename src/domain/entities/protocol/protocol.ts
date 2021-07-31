@@ -1,6 +1,6 @@
 import Contact from "../contact/contact";
 
-export default class Protocolo {
+export default class Protocol {
     private number: number;
     private contact: Contact;
     private createdAt: Date;
