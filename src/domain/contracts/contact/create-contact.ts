@@ -1,5 +1,5 @@
 import Contact from "../../entities/contact/contact"
 
 export default interface CreateContact {
-    constructor(name: string, email: string): Contact;
+    create(name: string, email: string): Contact;
 }
