@@ -1,3 +1,3 @@
 export default interface LinkOperatorToChannel {
-    constructor(operatorIf: number, channelId: number): boolean;
+    constructor(operatorId: number, channelId: number): boolean;
 }
