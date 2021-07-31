@@ -1,3 +1,3 @@
 export default interface ChangeContactData {
-    constructor(contactEmail: string, data: Array<[string: any]>): boolean;
+    updateByEmail(contactEmail: string, data: [string: any][]): boolean;
 }
