@@ -1,3 +1,5 @@
 export default interface ChangeChannelData {
-    constructor(channelId: number, data: Array<[string: any]>): boolean;
+    constructor(channelId: number, data: Array<[string: any]>)
+
+    execute(): boolean;
 }
