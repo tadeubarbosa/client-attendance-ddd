@@ -1,7 +1,7 @@
 import Name from "../shared/name";
 import Email from "../shared/email";
 
-export default class Contato {
+export default class Contact {
     private name: Name;
     private email: Email;
 

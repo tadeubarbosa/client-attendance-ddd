@@ -1,21 +1,21 @@
-import Contato from "../contato/contato";
+import Contact from "../contact/contact";
 
 export default class Protocolo {
     private number: number;
-    private contato: Contato;
+    private contact: Contact;
     private createdAt: Date;
     private updatedAt: Date;
     private deletedAt: Date|null;
 
     constructor(
         number: number,
-        contato: Contato,
+        contact: Contact,
         createdAt: Date,
         updatedAt: Date,
         deletedAt: Date|null
     ) {
         this.setNumber(number);
-        this.setContato(contato);
+        this.setContact(contact);
         this.setCreatedAt(createdAt);
         this.setUpdatedAt(updatedAt);
         this.setDeletedAt(deletedAt);
@@ -25,8 +25,8 @@ export default class Protocolo {
         this.number = number;
     }
 
-    private setContato(contato: Contato) {
-        this.contato = contato;
+    private setContact(contact: Contact) {
+        this.contact = contact;
     }
 
     private setCreatedAt(createdAt: Date) {
