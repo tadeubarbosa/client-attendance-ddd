@@ -1,3 +1,3 @@
 export default interface DeleteContact {
-    constructor(contactEmail): boolean;
+    deleteById(contactId: number): boolean;
 }
