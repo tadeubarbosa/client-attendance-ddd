@@ -1,3 +1,3 @@
 export default interface DeleteOperator {
-    constructor(operatorId: number): boolean;
+    deleteById(operatorId: number): boolean;
 }
