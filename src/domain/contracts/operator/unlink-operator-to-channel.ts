@@ -1,3 +1,3 @@
 export default interface UnlinkOperatorToChannel {
-    constructor(operatorId: number, channelId: number): boolean;
+    unlinkById(operatorId: number, channelId: number): boolean;
 }
