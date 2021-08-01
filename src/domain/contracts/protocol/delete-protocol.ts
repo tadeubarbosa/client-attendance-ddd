@@ -1,3 +1,3 @@
 export default interface DeleteProtocol {
-    constructor(protocolId: number): boolean;
+    deleteById(protocolId: number): boolean;
 }
